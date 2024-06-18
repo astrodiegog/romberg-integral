@@ -1,0 +1,5 @@
+#-- Default hydro only build
+
+DFLAGS    += -DMPI_ROMBERG
+DFLAGS    += -DDEBUG
+

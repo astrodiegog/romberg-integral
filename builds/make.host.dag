@@ -1,0 +1,6 @@
+#-- make.inc for DAG computer
+
+#-- Compiler and flags for different build type
+CC               = mpicc
+CPPFLAGS_DEBUG    = -g -O0 -std=gnu17
+CPPFLAGS_OPTIMIZE = -Ofast -std=gnu17
