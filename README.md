@@ -27,7 +27,7 @@ $$
 R(n,m) = \frac{1}{4^m - 1} \left(4^m R(n,m-1) - R(n-1,m-1)\right)
 $$
 
-where the _m_-th order of extrapolation can take values $n \meq m$.
+where the _m_-th order of extrapolation can take values $n \geq m$.
 
 ## Compilation
 
