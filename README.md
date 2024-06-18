@@ -71,9 +71,11 @@ $$
 
 To test with other functions, feel free to add other values into `src/integrands.c` and replace the three current function calls to `integrandONE`.
 
+In the future when trying to create a more complete integrator, I would like to dive deeper into how to implement [Gaussian Quadrature](https://en.wikipedia.org/wiki/Gaussian_quadrature) and [Clenshaw–Curtis Quadrature](https://en.wikipedia.org/wiki/Clenshaw–Curtis_quadrature). I would also like to read Bailey and Borwein (2008)'s [Highly Parallel, High-Precision Numerical Integration](https://www.davidhbailey.com/dhbpapers/quadparallel.pdf) that mentions a [Tanh-Sinh](https://github.com/Robert-van-Engelen/Tanh-Sinh) integration scheme.
+
 Cheers!
 
-Resources:
+## Resources:
 [Wikipedia](https://en.wikipedia.org/wiki/Romberg%27s_method)
 [Makefile Tutorial](https://makefiletutorial.com)
 [Compiling Programs Guide](http://www.delorie.com/djgpp/doc/ug/basics/compiling.html)
